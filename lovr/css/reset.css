@@ -1,0 +1,54 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+}
+
+body {
+    color: #343E59;
+    background-color: #E2E3F5;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 10px 15px;
+    max-width: 1200px;
+}
+
+select {
+    appearance: none;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+option {
+    font-family: 'Chekharda';
+    font-weight: 500;
+}
+
+button {
+    font-family: 'Chekharda';
+    font-weight: 500;
+}
+
+img {
+    max-width: 100%;
+}

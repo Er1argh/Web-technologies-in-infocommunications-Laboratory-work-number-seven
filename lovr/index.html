@@ -1,0 +1,230 @@
+
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ловр | Где начинаются истории любви</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!--Favicon-->
+    <link type="image/x-icon" href="img/favicon.ico" rel="shortcut icon"> 
+    <link type="image/x-icon" href="img/favicon.ico" rel="icon">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!--Description & Keywords-->
+    <meta name="keywords" content="знакомства онлайн, интернет знакомства, как познакомиться с парнем в интернете, как познакомиться с девушкой в интернете, знакомства в интернете, как познакомиться в интернете, сайт знакомств, бесплатные сайты знакомств, сайт знакомств без регистрации">
+    <meta name="description" content="Знакомства – ваш путь к новым встречам и романтическим отношениям. Наш сайт предлагает удобную и безопасную платформу для знакомств, где вы можете найти свою идеальную половинку. Создайте профиль, укажите свои предпочтения и интересы, и начните общение с людьми, которые соответствуют вашим ожиданиям. Наша миссия – помочь вам найти счастье и настоящую любовь. Присоединяйтесь к нам сегодня!">
+
+</head>
+<body>
+    
+    <div class="wrapper">
+        <!--Header-->
+        <div class="header">
+            <div class="header-top">
+                <div class="header-content">
+                    <!--Header top-->
+                    <nav class="user-nav"> 
+                        <p class="user-name">Александр</p>
+                        <img src="img/logo.jpg" alt="Logo" class="logo">
+                        <ul class="user-menu">
+                            <li class="user-menu-list"><a href="#" class="user-menu-link"><i class="fas fa-user"></i>Мой профиль</a></li>
+                            <li class="user-menu-list"><a href="#" class="user-menu-link"><i class="fas fa-cog"></i>Мои настройки</a></li>
+                            <li class="user-menu-list"><a href="#" class="user-menu-link"><i class="fas fa-coins"></i>Баланс</a></li>
+                        </ul>
+                    </nav>
+                    <!--Search-->
+                    <div class="header-row"> <!--Пока без form-->
+                        <!--Gender-->
+                        <div class="gender select">
+                            <label for="genders">Пол</label>
+                            <select  id="genders" name="genders">
+                                <option value="" disabled selected hidden >Выберите пол</option>
+                                <option value="male">Мужской</option>
+                                <option value="female">Женский</option>
+                            </select>
+                        </div>
+                        <!--Age-->
+                        <div class="age">
+                            <label for="age_input">Возраст</label>
+                            <span class="bar"><span id="fill"></span></span>
+                            <input type="range" name="age" id="age_input" min="18" max="99" value="18" step="1">
+                            <span id="age_span">18 лет</span>
+                        </div>
+                        <!--Country-->
+                        <div class="country select">
+                            <label for="country_select">Страна</label>
+                            <select name="country" id="country_select">
+                                <option value="Belarus">Беларусь</option>
+                                <option value="Russia">Россия</option>
+                                <option value="Ukraine">Украина</option>
+                            </select>
+                        </div>
+                        <!--City-->
+                        <div class="city select">
+                            <label for="city_select">Город</label>
+                            <select name="city" id="city_select">
+                                <option value="Brest">Брест</option>
+                                <option value="Gomel">Гомель</option>
+                                <option value="Hrodno">Гродно</option>
+                                <option value="Minsk">Минск</option>
+                                <option value="Mogilev">Могилёв</option>
+                                <option value="Vitebsk">Витебск</option>
+                                <option value="Другой">Другой</option>
+                            </select>
+                        </div>
+                        <div id="custom_city">
+                            <label for="custom_city_input">Введите город</label>
+                            <input type="text" name="custom-city" id="custom_city_input">
+                        </div>
+                        <!--Button-->
+                        <div class="search">
+                            <button><i class="fas fa-search"></i>Найти</button>
+                        </div>
+                    </div>             
+                </div>
+                <!--Profile picture-->
+                <div class="user-avatar">
+                    <img src="img/user-avatar.png" alt="Profile picture">
+                </div>
+            </div>
+            <!--Menu-->
+            <nav class="menu">
+                <ul class="nav-menu">
+                    <li class="nav-menu-list"><a href="#" class="nav-menu-link">Главная</a></li>
+                    <li class="nav-menu-list"><a href="#" class="nav-menu-link">О нас</a></li>
+                    <li class="nav-menu-list"><a href="#" class="nav-menu-link">Партнеры</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!--Main-->
+        <main class="main">
+            <div class="container">
+                <!--First profile-->
+                <section class="profile-1">
+                    <div class="profile-content">
+                        <!--Card-1-->
+                        <div class="card-container">                  
+                            <div class="card">
+                                <div class="profile-icon">
+                                    <i class="fas fa-user"></i>
+                                    <h2 class="profile-name-1">Анна</h2>                                    
+                                </div>
+                                <div class="profile-avatar-1 all">
+                                    <img src="img/profile-avatar-1.png" alt="Profile picture">
+                                    <button class="like">Нравится</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Profile information-->    
+                        <div class="profile-content-1 color">
+                            <p class="short-info">
+                                Возраст: 24 года <br> <br>
+                                Знак зодиака: Дева <br> <br>
+                                Место проживания: Брест <br> <br>
+                                Личность: Энергичная, любознательная, дружелюбная <br> <br>
+                                Интересы: Путешествия, чтение, спорт <br> <br>
+                                Чего ищу: Интересного собеседника, надежного партнера
+                            </p>
+                        </div>         
+                    </div>
+                </section>
+                <!--Second profile-->
+                <section class="profile-2">
+                    <div class="profile-content">
+                        <!--Card-2-->
+                        <div class="card-container">
+                            <div class="card">
+                                <div class="profile-icon">
+                                    <i class="fas fa-user"></i>
+                                    <h2 class="profile-name-2">Марина</h2>
+                                </div>
+                                <div class="profile-avatar-2 all">
+                                    <img src="img/profile-avatar-2.png" alt="Profile picture">
+                                    <button class="like">Нравится</button>
+                                </div>
+                            </div>
+                        </div>    
+                        <!--Profile information-->
+                        <div class="profile-content-2 color">
+                            <p class="short-info">
+                               Возраст: 25 лет <br> <br>
+                               Знак зодиака: Стрелец <br> <br>
+                               Место проживания: Щучин <br> <br>
+                               Личность: Энергичная, оптимистичная, целеустремленная <br> <br>
+                               Интересы: Танцы, чтение, кино <br> <br>
+                               Чего ищу: Человека, который разделит мою любовь к искусству 
+                            </p>
+                        </div> 
+                    </div>
+                </section>
+                <!--Third profile-->
+                <section class="profile-3">
+                    <div class="profile-content">
+                        <!--Card-3-->
+                        <div class="card-container">
+                            <div class="card">
+                                <div class="profile-icon">
+                                    <i class="fas fa-user"></i>
+                                    <h2 class="profile-name-3">Валерия</h2>
+                                </div>
+                                <div class="profile-avatar-3 all">
+                                    <img src="img/profile-avatar-3.png" alt="Profile picture">
+                                    <button class="like">Нравится</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Profile information-->
+                        <div class="profile-content-3 color">
+                            <p class="short-info">
+                               Возраст: 24 года <br> <br>
+                               Знак зодиака: Весы <br> <br>
+                               Место проживания: Гомель <br> <br>
+                               Личность: Стремительная, творческая, заботливая <br> <br>
+                               Интересы: Живопись, чтение, путешествия <br> <br>
+                               Чего ищу: Сильного и нежного партнера
+                            </p>
+                        </div> 
+                    </div>
+                </section>
+                <!--Fouth profile-->
+                <section class="profile-4">
+                    <div class="profile-content">
+                        <!--Card-4-->
+                        <div class="card-container">
+                            <div class="card">
+                                <div class="profile-icon">
+                                    <i class="fas fa-user"></i>
+                                    <h2 class="profile-name-4">Арина</h2>
+                                </div>
+                                <div class="profile-avatr-4 all">
+                                    <img src="img/profile-avatar-4.png" alt="Profile picture">
+                                    <button class="like">Нравится</button>
+                                </div>
+                            </div>   
+                        </div>
+                        <!--Profile information-->
+                        <div class  ="profile-content-4 color">
+                            <p class="short-info">
+                                Возраст: 23 года <br> <br>
+                                Знак зодиака: Скорпион <br> <br>
+                                Место проживания: Орша <br> <br>
+                                Личность: Жизнерадостная, активная, дружелюбная <br> <br>
+                                Интересы: Спорт, танцы, путешествия <br> <br>
+                                Чего ищу: Партнера, с которым можно весело проводить время
+                            </p>
+                        </div> 
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script src="js/main.js"></script>
+
+</body>
+</html>
